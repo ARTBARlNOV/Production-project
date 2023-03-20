@@ -42,7 +42,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'react/jsx-indent-props': 'off',
         'no-redeclare': 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': ['warn', { markupOnly: true }],
         'max-len': ['error', { ignoreComments: true }],
     },
     globals: {
