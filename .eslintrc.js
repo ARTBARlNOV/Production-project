@@ -43,7 +43,7 @@ module.exports = {
         'react/jsx-indent-props': 'off',
         'no-redeclare': 'off',
         'i18next/no-literal-string': ['warn', { markupOnly: true }],
-        'max-len': ['error', { ignoreComments: true }],
+        'max-len': ['error', { ignoreComments: true, code: 100 }],
     },
     globals: {
         __IS_DEV__: true,
