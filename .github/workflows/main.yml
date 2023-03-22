@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g bats
-      - run: bats -v
+project/config/build/buildPlugins.ts      - run: bats -v
       - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
