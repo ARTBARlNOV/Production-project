@@ -1,0 +1,11 @@
+name: Github Actions demo
+on: [push]
+jobs: 
+Explore-GitHub-Actions:
+runs-on: ubuntu-latest
+steps:
+- run: echo 1
+- run: echo 1
+- run: echo 1
+- name: Check out
+uses: actions/checkout@v2
