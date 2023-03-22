@@ -11,12 +11,6 @@ jobs:
       matrix:
         node-version: [ 17.x ]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-project/config/build/buildPlugins.ts      - run: bats -v
       - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
